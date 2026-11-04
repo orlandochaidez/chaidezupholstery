@@ -176,6 +176,16 @@
   .social svg{width:19px;height:19px}
   footer{background:var(--bottom);border-top:1px solid rgba(255,255,255,.14);padding:20px 0 26px;color:var(--bottom-soft);font-size:.86rem}
   .footer-in{display:flex;gap:14px;flex-wrap:wrap;justify-content:space-between;align-items:center}
+  .social a.yelp{width:auto;border-radius:99px;padding:0 15px;gap:7px;font-weight:800;font-size:.88rem;letter-spacing:.01em}
+  .social a.yelp svg{width:16px;height:16px}
+  @media(max-width:640px){
+    .header-in{gap:12px;padding:10px 0}
+    .brand{gap:0}
+    .brand img{height:42px}
+    .brand>span{display:none}
+    .lang-toggle button{padding:6px 10px;font-size:.78rem}
+    .call-btn{padding:10px 13px;font-size:.86rem}
+  }
 </style>
 </head>
 <body>
@@ -471,7 +481,7 @@
     <span><a class="foot-map" href="https://www.google.com/maps/search/?api=1&query=Chaidez+Upholstery%2C+2429+Fruitvale+Ave+Suite+1%2C+Bakersfield%2C+CA+93308" target="_blank" rel="noopener">2429 Fruitvale Ave, Suite 1</a> &bull; (661) 624-2240</span>
     <div class="social">
       <a href="https://www.instagram.com/chaidezupholstery/" target="_blank" rel="noopener" aria-label="Chaidez Upholstery on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.4" fill="currentColor" stroke="none"/></svg></a>
-      <a href="https://www.yelp.com/biz/chaidez-upholstery-bakersfield" target="_blank" rel="noopener" aria-label="Chaidez Upholstery on Yelp"><svg viewBox="0 0 24 24" fill="currentColor"><g><ellipse cx="12" cy="6.8" rx="2" ry="4"/><ellipse cx="12" cy="6.8" rx="2" ry="4" transform="rotate(72 12 12)"/><ellipse cx="12" cy="6.8" rx="2" ry="4" transform="rotate(144 12 12)"/><ellipse cx="12" cy="6.8" rx="2" ry="4" transform="rotate(216 12 12)"/><ellipse cx="12" cy="6.8" rx="2" ry="4" transform="rotate(288 12 12)"/></g></svg></a>
+      <a class="yelp" href="https://www.yelp.com/biz/chaidez-upholstery-bakersfield" target="_blank" rel="noopener" aria-label="Chaidez Upholstery on Yelp"><svg viewBox="0 0 24 24" fill="currentColor"><g><ellipse cx="12" cy="6.8" rx="2" ry="4"/><ellipse cx="12" cy="6.8" rx="2" ry="4" transform="rotate(72 12 12)"/><ellipse cx="12" cy="6.8" rx="2" ry="4" transform="rotate(144 12 12)"/><ellipse cx="12" cy="6.8" rx="2" ry="4" transform="rotate(216 12 12)"/><ellipse cx="12" cy="6.8" rx="2" ry="4" transform="rotate(288 12 12)"/></g></svg>Yelp</a>
     </div>
   </div>
 </footer>
